@@ -1,3 +1,4 @@
+![decimal_vs_double](https://github.com/user-attachments/assets/cd671bbc-3bd2-45d3-8aa0-29f11fbeaa28)
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
