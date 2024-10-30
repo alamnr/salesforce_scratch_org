@@ -45,3 +45,5 @@ System.debug(LoggingLevel.DEBUG,'Logging level set to DEBUG in this log');
 System.debug(LoggingLevel.FINE,'Logging level set to FINE in this log');
 System.debug(LoggingLevel.FINER,'Logging level set to FINER in this log');
 System.debug(LoggingLevel.FINEST,'Logging level set to FINEST in this log');
+
+System.debug(ApexUtils.getObjectApiNameToLabel());

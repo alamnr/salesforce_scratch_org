@@ -2,8 +2,9 @@
 public with sharing class ApexUtils {
   
   // This method is used to return a map of object api name and it's label
-  public static Map<STring,String> getObjectApiNameToLabel(){
-    public static Map<String,String> objectApiNameToLabelMap = new Map<String,String>();
+  public static Map<String,String> getObjectApiNameToLabel(){
+    
+    Map<String,String> objectApiNameToLabelMap = new Map<String,String>();
 
     // Getting all sObject Metadata
     Map<String,Schema.SObjectType> globalDescribeMap = Schema.getGlobalDescribe();
